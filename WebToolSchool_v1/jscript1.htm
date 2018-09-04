@@ -1,0 +1,119 @@
+<!DOCTYPE Html>
+<html lang="en">
+<head>
+	<title>CSS Introduction</title>
+	<meta charset ="UTF-8"/>
+	<meta name="description" content="Introduction to the Javascript language for web page interactivity">
+	<meta name="Keywords" content="Javascript, language, tutorial, lessons, first, steps, introduction, front, end">
+	<meta name="author" content="Ioannis A. Mantoudis">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1253">
+	
+	<script src="js/sidenav.js"></script>
+</head>
+<body>
+<div id="container">
+<header id="branding">
+	<a href="index.htm">
+	<img src="images/webtoolschool-logo2.jpg" width="380" height="100" alt="The Web Developers School">
+	</a>
+</header>
+	<nav class="topnav">
+		<a href="index.htm">Home</a>
+		<div class="dropdownmenu1">
+			<button class="dropbutton1">HTML
+			</button>
+			<div class ="dropdownmenu-content1">
+				<a href="HTML1.htm">HTML Lesson 1</a>
+				<a href="HTML2.htm">HTML Lesson 2</a>
+				<a href="HTML3.htm">HTML Lesson 3</a>
+			</div>
+		</div> <!-- End of Dropdownmenu1 -->
+		<div class="dropdownmenu2">
+			<button class="dropbutton2">CSS3
+			</button>
+			<div class ="dropdownmenu-content2">
+				<a href="css1.htm">CSS Lesson 1</a>
+				<a href="css2.htm">CSS Lesson 2</a>
+				<a href="css3.htm">CSS Lesson 3</a>
+			</div>
+		</div>	<!-- End of dropdownmenu2 -->
+		<div class="dropdownmenu3">
+			<button class="dropbutton3">JavaScript
+			</button>
+			<div class ="dropdownmenu-content3">
+				<a href="jscript1.htm">JavaScript Lesson 1</a>
+				<a href="jscript2.htm">JavaScript Lesson 2</a>
+			</div>
+		</div>	<!-- End of dropdownmenu3 -->
+		<a href="#contact">Contact</a>
+		<a href="#aboutus">About Us</a>
+	</nav> <!-- End of topnav navigation bar -->
+	
+	<nav id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<h3 class="title">XTML & HTML5</h3>
+		<a href ="html1.htm">Introduction to XHTML & HTML5</a>
+		<a href ="html2.htm">Creating a Basic XHTML Page</a>
+		<a href ="html3.htm">Html3</a>
+		
+		<h3 class="title">CSS</h3>
+		<a href ="css1.htm">Introduction to Cascading Style Sheets</a>
+		<a href ="css2.htm">Styling the Text with CSS</a>
+		<a href ="css3.htm">Selectors, Classes & Styles</a>
+		
+		<h3 class="title">JavaScript Language</h3>
+		<a href ="jscript1.htm">Introduction to JavaScript</a>
+		<a href ="jscript2.htm">Statements & Variables</a>
+		<a href ="jscript3.htm">DOM Elements</a>
+	</nav> <!-- End of Sidenav -->
+	<span id ="openbtn" onclick ="openNav()">&#9776Open</span>
+
+	<h1>Introduction to JavaScript</h1>
+  <section>
+	<h2>Basics of the JavaScript Language</h2>
+	<p>Web pages are defined by the HTML language and are styled with CSS. But in order to give them life and interactivity you need
+		a suitable programming language. Programming with JavaScript is what makes pages interact with users.</p>
+	<p>JavaScript is a programming language developed specifically this purpose, giving life to web pages while a user
+		interacts with them. The language is implemented in all the major browsers for many years and it's a major feature of them in order
+		to properly display web pages.</p>
+  </section>
+  <section>
+	<h2>Working with JavaScript</h2>
+		<p>You should know some basic things about JavaScript:
+	<ul>
+		<li><strong>Scripting Language.</strong>JavaScript is not a compiled language which means that it does not
+		require any special steps to be made to produce an executable file.</li>
+		<li><strong>Not Java.</strong> It has nothing to do with the Java language except some syntax that is common in languages
+			of the <code>C</code> family.</li>
+		<li><strong>Fully Featured Language.</strong>It has all the hallmarks of a complete computer language although many features
+			have a more weirder twist than in other languages.</li>
+	 
+	</ul>	
+	</section>  
+	<section>
+		<h2>Example</h2>
+		<p> </p>
+		<div class="code-section" align="center">
+		<code>&ltscript&gt<br>
+			&nbsp&nbsp&nbsp&nbsp document.write("Hello World!");<br>
+			  &lt/script&gt<br>	
+		</code>
+		</div> <!-- End of code-section -->
+		</div> <!-- End of code -->
+	</section>
+	<hr>
+	<div class="btn" align="center">
+		<span class="btn" align="center"><img src="images/back-disabled-btn.png" width="75" height="45" border="0"></span>
+		<span class="whitespace" align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <span class="btn" align="center"><a href="jscript2.htm"><img src="images/next-btn.png" width="75" height="45" border="0"></a></span>
+    </div>
+	<!-- End of Btn container -->
+	<footer>
+	<p>Developed & Written by jMantSolutions - Copyright 2017</p>
+	<p>HTML5 & CSS3 under a Creative Commons Attribution 3.0 License.</p>
+	</footer>
+</div> <!-- End of container -->
+</body>
+</html>

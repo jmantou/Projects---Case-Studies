@@ -1,0 +1,121 @@
+<!DOCTYPE Html>
+<html lang="en">
+<head>
+	<title>HTML5 Introduction</title>
+	<meta charset ="UTF-8"/>
+	<meta name="description" content="First Steps in XTML & HTML5">
+	<meta name="Keywords" content="HTML, HTML5, XHTML, tutorial, lessons, first, steps">
+	<meta name="author" content="Ioannis A. Mantoudis">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1253">
+	
+	<script src="js/sidenav.js"></script>
+</head>
+<body>
+<div id ="container">
+<header id="branding">
+	<a href="index.htm">
+	<img src="images/webtoolschool-logo2.jpg" width="380" height="100" alt="The Web Developers School">
+	</a>
+</header>
+	<nav class="topnav">
+		<a href="index.htm">Home</a>
+		<div class="dropdownmenu1">
+			<button class="dropbutton1">HTML
+			</button>
+			<div class ="dropdownmenu-content1">
+				<a href="HTML1.htm">HTML Lesson 1</a>
+				<a href="HTML2.htm">HTML Lesson 2</a>
+				<a href="HTML3.htm">HTML Lesson 3</a>
+			</div>
+		</div> <!-- End of Dropdownmenu1 -->
+		<div class="dropdownmenu2">
+			<button class="dropbutton2">CSS3
+			</button>
+			<div class ="dropdownmenu-content2">
+				<a href="css1.htm">CSS Lesson 1</a>
+				<a href="css2.htm">CSS Lesson 2</a>
+				<a href="css3.htm">CSS Lesson 3</a>
+			</div>
+		</div>	<!-- End of dropdownmenu2 -->
+		<div class="dropdownmenu3">
+			<button class="dropbutton3">JavaScript
+			</button>
+			<div class ="dropdownmenu-content3">
+				<a href="jscript1.htm">JavaScript Lesson 1</a>
+				<a href="jscript2.htm">JavaScript Lesson 2</a>
+			</div>
+		</div>	<!-- End of dropdownmenu3 -->
+	<a href="#contact">Contact</a>
+	<a href="#aboutus">About Us</a>
+	</nav> <!-- End of topnav navigation bar -->
+	
+	<nav id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<h3 class="title">XHTML & HTML5</h3>
+		<a href ="html1.htm">Introduction to XHTML & HTML5</a>
+		<a href ="html2.htm">Creating a Basic XHTML Page</a>
+		<a href ="html3.htm">Understanding the Basics of HTML</a>
+		
+		<h3 class="title">CSS</h3>
+		<a href ="css1.htm">Introduction to Cascading Style Sheets</a>
+		<a href ="css2.htm">Styling the Text with CSS</a>
+		<a href ="css3.htm">Selectors, Classes & Styles</a>
+		
+		<h3 class="title">JavaScript Language</h3>
+		<a href ="jscript1.htm">Introduction to JavaScript</a>
+		<a href ="jscript2.htm">Statements & Variables</a>
+		<a href ="jscript3.htm">DOM Elements</a>
+	</nav> <!-- End of Sidenav -->
+	<span id ="openbtn" onclick ="openNav()">&#9776Open</span>
+
+	<h1>Introduction to XTML & HTML5</h1>
+	<section>
+	<h2>Transition from XHTML to HTML5</h2>
+	<p>For everybody that is used in writing Html markup using the strict syntax rules of XHTML, like
+		lowercase elements, quoting attributes and closing empty elements, no problem!</p>
+	<p>You can make the jump to HTML5 and bring your XHTML habits as far as coding markup is concerned.
+		This particular HTML5 educational website is coded with this in mind and it's 100% valid.
+		This page combines the benefits of the new HTML5 version with the strictness of syntax of the
+		older XTML 1 version.</p>
+	</section>
+	<section>
+	<h2>The 'Lang' Attribute</h2>
+	<p>It is very good idea to declare the language with the 'lang' attribute. See below
+		what the W3C has to say about this:</p>
+	<p>'Specifying the language of content is useful for a wide number of applications
+		from linguistically - sensitive searching to applying language specific display properties.
+		In some cases the potential applications for language information are still waiting to
+		catch up, whereas in others, such as detection of language by voice browsers, 
+		it is a necessity today. Adding markup for language information to content is something that 
+		can and should be done today. Without it, it will not be possible to take advantage of any 
+		future developments.'</p>
+	</section>
+	<section>
+	<h2>Character Encoding</h2>
+	<p>There is no need to know the Character Encoding in detail, but basically, it defines the set of
+		valid human readable characters that can be used in the document you are building. It is safest to
+		stick to the UTF-8 character set, which is a universal set that allows all characters from almost
+		all the languages in the world.
+		</p>
+	</section>
+	<section>
+	<h2>No More Type Attribute in HTML5</h2>
+	<p>In HTML5 we no longer need to include a type attribute when we declare Javascript script's or CSS. That is
+		because there aren't any other scripting and styling languages (except CSS and Javascript), that you maybe want to 
+		use and therefore differentiate between (such as VBScript that was used sometimes in the past).
+	<hr>
+	<div class="btn" align="center">
+		<span class="btn" align="center"><img src="images/back-disabled-btn.png" width="75" height="45" border="0"></span>
+		<span class="whitespace" align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <span class="btn" align="center"><a href="html2.htm"><img src="images/next-btn.png" width="75" height="45" border="0"></a></span>
+    </div>
+	<!-- End of Btn container -->
+	<footer>
+	<p>Developed & Written by jMantSolutions - Copyright 2017</p>
+	<p>HTML5 & CSS3 under a Creative Commons Attribution 3.0 License.</p>
+	</footer>
+</div> <!-- End of container -->
+</body>
+</html>

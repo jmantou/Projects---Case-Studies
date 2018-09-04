@@ -1,0 +1,128 @@
+<!DOCTYPE Html>
+<html lang="en">
+<head>
+	<title>CSS Introduction</title>
+	<meta charset ="UTF-8"/>
+	<meta name="description" content="First Steps in CSS & CSS3">
+	<meta name="Keywords" content="CSS, CSS3, tutorial, lessons, first, steps">
+	<meta name="author" content="Ioannis A. Mantoudis">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1253">
+	
+	<script src="js/sidenav.js"></script>
+</head>
+<body>
+<div id="container">
+<header id="branding">
+	<a href="index.htm">
+	<img src="images/webtoolschool-logo2.jpg" width="380" height="100" alt="The Web Developers School">
+	</a>
+</header>
+	<nav class="topnav">
+		<a href="index.htm">Home</a>
+		<div class="dropdownmenu1">
+			<button class="dropbutton1">HTML
+			</button>
+			<div class ="dropdownmenu-content1">
+				<a href="HTML1.htm">HTML Lesson 1</a>
+				<a href="HTML2.htm">HTML Lesson 2</a>
+				<a href="HTML3.htm">HTML Lesson 3</a>
+			</div>
+		</div> <!-- End of Dropdownmenu1 -->
+		<div class="dropdownmenu2">
+			<button class="dropbutton2">CSS3
+			</button>
+			<div class ="dropdownmenu-content2">
+				<a href="css1.htm">CSS Lesson 1</a>
+				<a href="css2.htm">CSS Lesson 2</a>
+				<a href="css3.htm">CSS Lesson 3</a>
+			</div>
+		</div>	<!-- End of dropdownmenu2 -->
+		<div class="dropdownmenu3">
+			<button class="dropbutton3">JavaScript
+			</button>
+			<div class ="dropdownmenu-content3">
+				<a href="jscript1.htm">JavaScript Lesson 1</a>
+				<a href="jscript2.htm">JavaScript Lesson 2</a>
+			</div>
+		</div>	<!-- End of dropdownmenu3 -->
+		<a href="#contact">Contact</a>
+		<a href="#aboutus">About Us</a>
+	</nav> <!-- End of topnav navigation bar -->
+	<nav id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<h3 class="title">XTML & HTML5</h3>
+		<a href ="html1.htm">Introduction to XHTML & HTML5</a>
+		<a href ="html2.htm">Creating a Basic XHTML Page</a>
+		<a href ="html2.htm">Html3</a>
+		
+		<h3 class="title">CSS</h3>
+		<a href ="css1.htm">Introduction to Cascading Style Sheets</a>
+		<a href ="css2.htm">Styling the Text with CSS</a>
+		<a href ="css3.htm">Selectors, Classes & Styles</a>
+		
+		<h3 class="title">JavaScript Language</h3>
+		<a href ="jscript1.htm">Introduction to JavaScript</a>
+		<a href ="jscript2.htm">Statements & Variables
+		
+		</a>
+		<a href ="jscript3.htm">DOM Elements</a>
+	</nav> <!-- End of Sidenav -->
+	<span id ="openbtn" onclick ="openNav()">&#9776Open</span>
+
+	<h1>Styling the Text</h1>
+  <section>
+	<h2>Setting up the Font Family</h2>
+	<p>To assign a different font-family to specific parts of our page we will create a new CSS rule. 
+		By different parts we mean specific selectors in our organization of the page, for example the
+		h1 headings of our web page.</p>
+	<p></p>
+  </section>
+  <section>
+	<h2>Setting a Style Sheet</h2>	
+	<ul>
+	  <li><strong>Begin with the Style tags.</strong> The type of style you will be working can be embedded in the head of the page
+	  	or in a separate file with the extension (.css).</li>
+	  <li><strong>Include the style tag in the header area.</strong> The style type is always "text/css" 
+	  	but you can omit that in HTML5.</li>
+	  <li><strong>Define an element.</strong> Use the elemen name to begin the definition of a particular element's
+	  	style. Later we'll learn how to define other things and objects in the page for styling 
+		like classes, ids etc.</li>
+	<li><strong>Use braces ({ }) to enclose the style rules.</strong> Each style's rule are enclosed in a set of braces,  
+		in a style similar to many programming languages. It is also traditional programming technique 
+		to indent inside the braces.</li>
+	<li><strong>Give the rule a name.</strong> For example font or background color. There are many 
+	 	CSS rules (very often called attributes) and some IDE's can help automate this procedure. A colon
+	  (:) character must always follow the atrribute name.</li>
+	<li><strong>Enter the Attribute's value.</strong> Different rules take different values. The attribute value must
+		end with a semicolon as in a programming language's statements.</li>
+	</ul>	
+  </section>  
+	<section>
+		<h2>Example</h2>
+		<p>For example if we want all of our paragraphs to have Arial fonts, white text color and
+			a blue background we can add the following style:</p>
+		<div class="code-section" align="center">
+		<code>p {<br>
+				color:white;<br>
+				font-family: Arial, Helvetica;<br>
+				background-color: blue;<br>
+				}
+		</code>
+		<!-- End of code-section -->
+</div> <!-- End of code -->
+	</section>
+	<hr>
+	<div class="btn" align="center">
+		<span class="btn" align="center"><a href="css1.htm"><img src="images/back-btn.png" width="75" height="45" border="0"></a></span>
+		<span class="whitespace" align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <span class="btn" align="center"><a href="css3.htm"><img src="images/next-btn.png" width="75" height="45"></a></span>
+    </div> <!-- End of Btn container -->
+<footer>
+<p>Developed & Written by jMantSolutions - Copyright 2017 &copy;</p>
+	<p>HTML5 & CSS3 under a Creative Commons Attribution 3.0 License.</p>
+</footer>
+</div> <!-- End of container -->
+</body>
+</html>

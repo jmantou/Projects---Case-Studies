@@ -1,0 +1,174 @@
+@charset "iso-8859-1";
+/* CSS Document */
+/* Adding colors and properties to the top navigation menu */
+
+.topnav {
+	background-color: #333333;
+	overflow: hidden;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #0000ff
+}
+
+/* Styling the links inside the navigation bar */
+.topnav a {
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+/* Styling the Dropdown Menu container */
+.dropdownmenu1, .dropdownmenu2, .dropdownmenu3 {
+	float: left;
+	overflow: hidden;
+}
+
+/* Styling the drop button */
+.dropdownmenu1 .dropbutton1, .dropdownmenu2 .dropbutton2, .dropdownmenu3 .dropbutton3 {
+	font-size: 18px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+}
+
+/*Styling the background color of navigation bar links on hover */
+.topnav a:hover {
+	background-color: #3366ff;
+}
+
+/* Styling the background color of button drop down's */
+.dropbutton1:hover, .dropbutton2:hover, .dropbutton3:hover {
+	background-color: #3366ff;
+}
+
+/* Styling the dropdown content */
+.dropdownmenu-content1, .dropdownmenu-content2, .dropdownmenu-content3 {
+	display: none;
+	position: absolute;
+	background-color: #cce6ff;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba (0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.dropdownmenu-content1 a, .dropdownmenu-content2 a, .dropdownmenu-content3 a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdownmenu-content1 a:hover, .dropdownmenu-content2 a:hover, .dropdownmenu-content3 a:hover {
+	background-color: #ddd;
+}
+
+/* Show the dropdown menu while hovering */
+.dropdownmenu1:hover .dropdownmenu-content1, .dropdownmenu2:hover .dropdownmenu-content2, 
+	.dropdownmenu3:hover .dropdownmenu-content3 {
+	display: block;
+}
+
+/* Styling the Side Navigation menu */
+.sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #3366ff;
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition: 0.5s;
+}
+
+/* Styling the side Navigation Menu links */
+.sidenav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 16px;
+	display: block;
+	color: white;
+	transition: 0.3s;
+}
+
+/* Styling the navigation links while on hover */
+.sidenav a:hover {
+	color: #333333;
+}
+
+/* Styling and positioning the close button */
+.sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 26px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+
+.title {
+	padding: 4px 4px;
+	color: black;
+}
+
+#container {
+	transition: margin-left 0.5s;
+	padding: 20px;
+}
+
+#openbtn {
+	background-color: #333333;
+	font-size: 30px; 
+	cursor: pointer;
+	color: white;
+}
+
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+header {
+	background-color: white;
+	padding: 5px;
+	
+}
+footer {
+	background-color: #3366FF;
+	padding: 10px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: white;
+}
+hgroup {
+	text-align: center;
+	background-color: #CCCCCC;
+}
+.code-section {
+	text-align: left;
+	font-size: 16px;
+	font-family: "Courier New", Courier, mono;
+	font-weight: 500;
+	border-left: 5px solid blue;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+	background-color: #cce6ff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+
+
+
+

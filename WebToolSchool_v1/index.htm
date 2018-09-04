@@ -1,0 +1,98 @@
+<!DOCTYPE Html>
+<html lang="en">
+<head>
+	<title>HTML5 Tutorial Case Study</title>
+	<meta charset="UTF-8"/>
+	<meta name="description" content="A Website case study about learning HTML5, CSS3 and JavaScript">
+	<meta name="Keywords" content="HTML, HTML5, CSS, CSS3, Javascript, tutorial, lessons">
+	<meta name="author" content="Ioannis A. Mantoudis">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	
+	<script src="js/sidenav.js"></script>
+</head>
+<body>
+<div id="container">
+<header id="branding">
+	<a href="index.htm">
+	<img src="images/webtoolschool-logo2.jpg" alt="The Web Developers School" width="380" height="120" border="0">
+	</a>
+</header>
+	<nav class="topnav">
+		<a href="#home">Home</a>
+		<div class="dropdownmenu1">
+			<button class="dropbutton1">HTML
+			</button>
+			<div class ="dropdownmenu-content1">
+				<a href="HTML1.htm">HTML Lesson 1</a>
+				<a href="HTML2.htm">HTML Lesson 2</a>
+				<a href="HTML3.htm">HTML Lesson 3</a>
+			</div>
+		</div> <!-- End of Dropdownmenu1 -->
+		<div class="dropdownmenu2">
+			<button class="dropbutton2">CSS3
+			</button>
+			<div class ="dropdownmenu-content2">
+				<a href="css1.htm">CSS Lesson 1</a>
+				<a href="css2.htm">CSS Lesson 2</a>
+				<a href="css3.htm">CSS Lesson 3</a>
+			</div>
+		</div>	<!-- End of dropdownmenu2 -->
+		<div class="dropdownmenu3">
+			<button class="dropbutton3">JavaScript
+			</button>
+			<div class ="dropdownmenu-content3">
+				<a href="jscript1.htm">JavaScript Lesson 1</a>
+				<a href="jscript2.htm">JavaScript Lesson 2</a>
+			</div>
+		</div>	<!-- End of dropdownmenu3 -->
+		<a href="#contact">Contact</a>
+		<a href="#aboutus">About Us</a>
+	</nav> <!-- End of topnav navigation bar -->
+	
+	<nav id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<h3 class="title">XTML & HTML5</h3>
+		<a href ="html1.htm">Introduction to XHTML & HTML5</a>
+		<a href ="html2.htm">Creating a Basic XHTML Page</a>
+		<a href ="html3.htm">Html3</a>
+		
+		<h3 class="title">CSS</h3>
+		<a href ="css1.htm">Introduction to Cascading Style Sheets</a>
+		<a href ="css2.htm">Styling the Text with CSS</a>
+		<a href ="css3.htm">Selectors, Classes & Styles</a>
+		
+		<h3 class="title">JavaScript Language</h3>
+		<a href ="jscript1.htm">Introduction to JavaScript</a>
+		<a href ="jscript2.htm">Statements & Variables</a>
+		<a href ="jscript3.htm">DOM Elements</a>
+	</nav> <!-- End of Sidenav -->
+	<span id ="openbtn" onclick ="openNav()">&#9776Open</span>
+	
+	<div id="html"> 
+		<hgroup>
+		<h1>XHTML & HTML5</h1>
+		<h2>Giving Structure Semantics to the Web</h2>
+		</hgroup>
+	</div> <!-- End of html -->
+	<div id="css">
+		<hgroup>
+		<h1>CSS3 - Cascading Style Sheets</h1>
+		<h2>Giving Beauty to Web Pages</h2>
+		</hgroup>
+	</div>
+	<div id="javascript">
+		<hgroup>
+		<h1>The JavaScript Language</h1>
+		<h2>Programming Interactivity to Pages</h2>
+		</hgroup>
+	</div>	
+	<p></p>
+	<footer>
+	<p>Developed & Written by jMantSolutions - Copyright 2017</p>
+	<p>HTML5 & CSS3 under a Creative Commons Attribution 3.0 License.</p>
+	</footer>
+</div> <!-- End of container -->
+</body>
+</html>

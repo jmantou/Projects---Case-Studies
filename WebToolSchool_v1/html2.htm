@@ -1,0 +1,123 @@
+<!DOCTYPE Html>
+<html lang="en">
+<head>
+	<title>HTML5 Introduction</title>
+	<meta charset ="UTF-8"/>
+	<meta name="description" content="First Steps in XTML & HTML5">
+	<meta name="Keywords" content="HTML, HTML5, XHTML, tutorial, lessons, first, steps, fisrt, web, page">
+	<meta name="author" content="Ioannis A. Mantoudis">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1253">
+	
+	<script src="js/sidenav.js"></script>
+</head>
+<body>
+<div id ="container">
+<header id="branding">
+	<a href="index.htm">
+	<img src="images/webtoolschool-logo2.jpg" width="380" height="100" alt="The Web Developers School">
+	</a>
+</header>
+	<nav class="topnav">
+		<a href="index.htm">Home</a>
+		<div class="dropdownmenu1">
+			<button class="dropbutton1">HTML
+			</button>
+			<div class ="dropdownmenu-content1">
+				<a href="HTML1.htm">HTML Lesson 1</a>
+				<a href="HTML2.htm">HTML Lesson 2</a>
+				<a href="HTML3.htm">HTML Lesson 3</a>
+			</div>
+		</div> <!-- End of Dropdownmenu1 -->
+		<div class="dropdownmenu2">
+			<button class="dropbutton2">CSS3
+			</button>
+			<div class ="dropdownmenu-content2">
+				<a href="css1.htm">CSS Lesson 1</a>
+				<a href="css2.htm">CSS Lesson 2</a>
+				<a href="css3.htm">CSS Lesson 3</a>
+			</div>
+		</div>	<!-- End of dropdownmenu2 -->
+		<div class="dropdownmenu3">
+			<button class="dropbutton3">JavaScript
+			</button>
+			<div class ="dropdownmenu-content3">
+				<a href="jscript1.htm">JavaScript Lesson 1</a>
+				<a href="jscript2.htm">JavaScript Lesson 2</a>
+			</div>
+		</div>	<!-- End of dropdownmenu3 -->
+	<a href="#contact">Contact</a>
+	<a href="#aboutus">About Us</a>
+	</nav> <!-- End of topnav navigation bar -->
+	
+	<nav id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<h3 class="title">XHTML & HTML5</h3>
+		<a href ="hmtl1.htm">Introduction to XHTML & HTML5</a>
+		<a href ="html2.htm">Creating a Basic XHTML Page</a>
+		<a href ="html3.htm">Understanding the Basics of HTML</a>
+		
+		<h3 class="title">CSS</h3>
+		<a href ="css1.htm">Introduction to Cascading Style Sheets</a>
+		<a href ="css2.htm">Styling the Text with CSS</a>
+		<a href ="css3.htm">Selectors, Classes & Styles</a>
+		
+		<h3 class="title">JavaScript Language</h3>
+		<a href ="jscript1.htm">Introduction to JavaScript</a>
+		<a href ="jscript2.htm">Statements & Variables</a>
+		<a href ="jscript3.htm">DOM Elements</a>
+	</nav> <!-- End of Sidenav -->
+	<span id ="openbtn" onclick ="openNav()">&#9776Open</span>
+
+	<h1>Creating a Basic XHTML Page</h1>
+	<section>
+	<h2>Introduction to HTML</h2>
+	<p>We will start by building a simple HTML page and learning the basic elements of web pages constructing an example. HTMl is
+		a more older standard than XHTML and HTML5, but is a bit more easier for beginners to understand and learn the
+		basic steps.</p>
+	<p></p>
+	</section>
+	<section>
+	<h2>Basic Steps</h2>
+	<p>In order to build a basic page we don't need any expensive and complicated software nor a powerful computer. The basic tools
+		are available in any ordinary Windows or Linux machine.</p>
+	<p>OK then! Let's fire the computer and build our first page!</p>
+	</section>
+	<section>
+	<h2>Example</h2>
+	<p>Open a simple text editor and type the following code:
+		</p>
+	<div class="code-section" align="center">
+		<code> &lthtml&gt<br>
+				&lthead&gt<br>
+					&lttitle&gtMy first Html Page&lt/title&gt<br>
+				&lt/head&gt<br>
+				&ltbody&gt<br>
+				&lth1&gtThe Heading Title&lt/h1&gt<br>
+				&ltp&gtThis is my first, surely very simple web page!&lt/p&gt<br>
+				&ltp&gtIt is so cool!&lt/p&gt<br>
+				&lt/body&gt<br>
+				&lt/html&gt<br>
+					
+		</code>
+	</div>
+	<p> A Web Browser is a program that you'll use to view html pages. There are a number of very popular web browsers, but for 
+		start you can use whichever you like. Because you new file has not been uploaded yet to a public server you can simply locate the 
+		page file you just made in your file system and double click on it to open it in your default browser for viewing.
+	</p>
+	</section>
+	<hr>
+	<div class="btn" align="center">
+		<span class="btn" align="center"><a href="html1.htm"><img src="images/back-btn.png" width="75" height="45" border="0"></a></span>
+		<span class="whitespace" align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <span class="btn" align="center"><a href="html3.htm"><img src="images/next-btn.png" width="75" height="45" border="0"></a></span>
+    </div>
+	<!-- End of Btn container -->
+	<footer>
+	<p>Developed & Written by jMantSolutions - Copyright 2017</p>
+	<p>HTML5 & CSS3 under a Creative Commons Attribution 3.0 License.</p>
+	</footer>
+</div> <!-- End of container -->
+</body>
+</html>
